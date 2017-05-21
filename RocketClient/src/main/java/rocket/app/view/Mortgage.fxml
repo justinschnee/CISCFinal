@@ -48,7 +48,7 @@
             <TextField fx:id="txtCreditScore" GridPane.columnIndex="1" GridPane.rowIndex="1" />
             <TextField fx:id="txtIncome" GridPane.columnIndex="1" GridPane.rowIndex="2" />
             <TextField fx:id="txtExpenses" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-            <ComboBox fx:id="combTerm" prefHeight="27.0" prefWidth="212.0" promptText="Please Select" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <ComboBox fx:id="cmbTerm" prefHeight="27.0" prefWidth="212.0" promptText="Please Select" GridPane.columnIndex="1" GridPane.rowIndex="4" />
             <Label fx:id="lablMortgagePayment" prefHeight="17.0" prefWidth="196.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="5" />
          </children>
      

@@ -19,13 +19,7 @@ public class RateBLL {
 	
 	public static double getRate(int GivenCreditScore) throws RateException 
 	{
-		//TODO - RocketBLL RateBLL.getRate - make sure you throw any exception
-		
-		//		Call RateDAL.getAllRates... this returns an array of rates
-		//		write the code that will search the rates to determine the 
-		//		interest rate for the given credit score
-		//		hints:  you have to sort the rates...  you can do this by using
-		//			a comparator... or by using an OrderBy statement in the HQL
+	
 		double dInterestRate = 0;
 		ArrayList<RateDomainModel> rates = RateDAL.getAllRates();
 		for(RateDomainModel rte : rates)
