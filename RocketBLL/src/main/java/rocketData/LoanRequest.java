@@ -24,13 +24,13 @@ public class LoanRequest implements Serializable {
 		return Income;
 	}
 	public void setIncome(double income) {
-		Income = income;
+		this.Income = income;
 	}
 	public double getExpenses() {
 		return Expenses;
 	}
 	public void setExpenses(double expenses) {
-		Expenses = expenses;
+		this.Expenses = expenses;
 	}
 	public LoanRequest() {
 		super();

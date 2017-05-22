@@ -18,11 +18,12 @@ import rocketDomain.RateDomainModel;
 	// given
 	// credit score
 
-
+		
 		@Test 
 		public void RateTest2() throws RateException {
-			RateBLL.getRate(700);
+			RateBLL.getRate(400);
 		}
+		
 // GetPaymentTest
 		@Test
 		public void GetPaymentTest() throws RateException{
